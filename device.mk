@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 $(call inherit-product, device/infinix/x510/vendor/copyfiles.mk)
-$(call inherit-product, vendor/infinix/x510/x510-vendor-blobs.mk)
+$(call inherit-product, vendor/infinix/x510/x510-vendor.mk)
 
 LOCAL_PATH := device/infinix/x510
 

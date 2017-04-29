@@ -40,7 +40,7 @@ public class Operators {
         HashMap<String, String> init = new HashMap<String, String>();
         // Taken from spnOveride.java
         FileReader spnReader;
-        final File spnFile = new File(Environment.getRootDirectory(), "etc/spn-conf.xml");
+        final File spnFile = new File(Environment.getRootDirectory(), "etc/apn-conf.xml");
 
         try {
             spnReader = new FileReader(spnFile);

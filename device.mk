@@ -225,6 +225,10 @@ PRODUCT_PACKAGES += \
     resize2fs \
     setup_fs
 
+# Slim FileManager
+PRODUCT_PACKAGES += \
+    SlimFileManager
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=8
 
 # Dalvik

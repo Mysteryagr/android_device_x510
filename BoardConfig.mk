@@ -139,3 +139,6 @@ $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
 
 # RIL
 BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
+
+# HW theme
+TW_THEME := portrait_hdpi

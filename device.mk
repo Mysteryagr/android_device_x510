@@ -14,7 +14,7 @@ PRODUCT_AAPT_CONFIG := normal xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Recovery allowed devices
-TARGET_OTA_ASSERT_DEVICE := d5110,d5110_infinix,Infinix_X510,Infinix_X510_sprout,Infinix D5110,x510,hot2
+# TARGET_OTA_ASSERT_DEVICE := d5110,d5110_infinix,Infinix_X510,Infinix_X510_sprout,Infinix D5110,x510,hot2
 
 PRODUCT_PACKAGES += \
    libxlog

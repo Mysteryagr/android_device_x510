@@ -4,7 +4,7 @@
 PRODUCT_RELEASE_NAME := x510
 
 # Inherit some common aicp stuff.
-$(call inherit-product, vendor/aicp/configs/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/configs/telephony.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/infinix/x510/aicp_x510.mk)
